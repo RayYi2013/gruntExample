@@ -1,0 +1,33 @@
+{
+    "name": "reportdb-api",
+    "version": "0.0.1",
+    "description": "",
+	"main": "./lib/reportdb-api.js",
+    "scripts": {
+        "test": "grunt test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@leadhubgit.corp.homestore.net:production/reportdbapi.git"
+    },
+    "author": "Move Inc.",
+    "dependencies": {
+        "application-helpers": "git+ssh://git@leadhubgit.corp.homestore.net:production/applicationhelpers.git#0.1"
+    },
+    "devDependencies": {
+        "mocha": "1.17.0",
+        "should": "2.1.1",
+        "grunt": "0.4.2",
+        "grunt-contrib-jshint": "0.8.0",
+        "load-grunt-tasks": "0.2.1",
+        "grunt-contrib-watch": "0.5.3",
+        "grunt-env": "0.4.1",
+        "grunt-mocha-test": "0.8.1",
+        "blanket": "1.1.6",
+        "jsdoc": "~3.3.0",
+        "grunt-shell": "0.6.1",
+        "grunt-notify": "0.2.17",
+        "sinon": "1.7.3"
+    },
+    "private": true
+}
